@@ -4,8 +4,6 @@ typedef int bool;
 #define TRUE 1
 #define FALSE 0
 
-
-
 bool CheckDivisible(int iNo)
 {
     if(iNo % 5 == 0)
@@ -17,7 +15,6 @@ bool CheckDivisible(int iNo)
     {
         return FALSE;
     }
-
 }
 
 int main()
